@@ -21,3 +21,7 @@ const regex = require("steamid-regex");
 regex.steamid64("76561198833595394");
 // Expected output: true
 ```
+# Responses:
+``true`` - input matches with regex
+<br>
+``false`` - input doesn't match with regex
