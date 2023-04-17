@@ -1,0 +1,22 @@
+{
+    "name": "steamid-regex",
+    "version": "1.0.0",
+    "description": "SteamID Regex for all types of steamid",
+    "main": "index.js",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/winqdev/steamid-regex"
+      },
+      "keywords": [
+        "steamid",
+        "steamid64",
+        "steamid3",
+        "steamidregex",
+        "steamid64regex"
+      ],
+    "scripts": {
+      "start": "node index.js"
+    },
+    "license": "MIT"
+  }
+  
