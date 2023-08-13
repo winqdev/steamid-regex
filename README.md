@@ -4,21 +4,21 @@ SteamID Regex for all types of steamid
 ```js
 const regex = require("steamid-regex");
 
-regex.steamid("STEAM_0:1:526443130");
+console.log(regex.steamid("STEAM_0:1:526443130"));
 // Expected output: true
 ```
 # SteamID3 Regex
 ```js
 const regex = require("steamid-regex");
 
-regex.steamid3("[U:1:873329666]");
+console.log(regex.steamid3("[U:1:873329666]"));
 // Expected output: true
 ```
 # SteamID64 Regex
 ```js
 const regex = require("steamid-regex");
 
-regex.steamid64("76561198833595394");
+console.log(regex.steamid64("76561198833595394"));
 // Expected output: true
 ```
 # Responses:
